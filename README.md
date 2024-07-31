@@ -100,8 +100,7 @@ cloud-init-ready OS disk image files (e.g. `qcow2`).
 ## Installation
 
 To install the `pve-vm-cloudinit` scripts,
-copy the files under the [bin](./bin) directory to a `~/.local/bin` directory
-and make sure the 
+copy the files under the [bin](./bin) directory to a `~/.local/bin` directory.
 Make sure that the files are executable and that `~/.local/bin` is on your path.
 
 ```sh
