@@ -205,7 +205,7 @@ runInternal() {
         if [[ $QUIET -eq 0 ]]; then
             echo -n "$2" | xargs -d $'\x1F' bash -xc "$1" --
         else
-            echo -n "$2" | xargs -d $'\x1F' bash -c "$1" --
+            echo -n "$2" | >/dev/null xargs -d $'\x1F' bash -c "$1" --
         fi
     fi
     
